@@ -1,0 +1,17 @@
+.app-header{
+    padding-top: 10px;
+    height: 4vh;
+    .side-bar{
+        align-items: center;
+    }
+    p,.logo{
+        &:hover{
+            cursor: pointer;
+            color: rgb(163, 163, 163);
+        }
+    }
+    .logo{
+        font-family: circular;
+color: $clr4; 
+    }
+}

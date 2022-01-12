@@ -1,0 +1,21 @@
+.footer-container {
+  height: 4vh;
+  // padding: 10px;
+  .icon-container {
+    align-items: center;
+    > :first-child {
+      margin: 0 20px 0 0;
+    }
+    a {
+      display: flex;
+    }
+    svg {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .coffee-rights {
+    align-items: center;
+  }
+}

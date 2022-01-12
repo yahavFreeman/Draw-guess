@@ -1,0 +1,22 @@
+.drawing{
+    .user-details{
+        width: 300px;
+        justify-content: space-around;
+        }
+        .choice-details{
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        canvas{
+            margin: 10px;
+            background-color: white;
+        }
+        .restart{
+            justify-content:center;
+            // align-items: center;
+            button{
+                border-radius: 5px;
+                background-color: $clr2;
+            }
+        }
+}

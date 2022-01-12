@@ -1,0 +1,31 @@
+.home {
+  flex-direction: column;
+  .user-inputs-container {
+    > :first-child {
+      margin-bottom: 15px;
+    }
+    input {
+      width: 185px;
+      padding: 6px;
+      border-radius: 5px;
+      border: none;
+      box-shadow: rgb(0 0 0 / 15%) 0px 0px 3px 3px;
+    }
+  }
+  button {
+    margin-top: 15px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .signup{
+    margin-top: 10px;
+    text-decoration-line: underline;
+    color: $clr4;
+    font-size: 1.1rem;
+    font-family: circular;
+  }
+}

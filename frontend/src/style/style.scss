@@ -1,0 +1,15 @@
+// SETUP
+@import "setup/variables";
+@import "setup/mixins";
+@import "setup/typography";
+// BASICS
+@import "./basic/base";
+@import "./basic/layout";
+// COMPONENTS
+@import "./cmps/app-header";
+@import "./cmps/home-page";
+@import "./cmps/waiting-page";
+@import "./cmps/word-choosing";
+@import "./cmps/guessing-page";
+@import "./cmps/drawing-page";
+@import "./cmps/app-footer";
