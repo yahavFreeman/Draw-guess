@@ -1,5 +1,11 @@
 .home {
   flex-direction: column;
+  .demo{
+    >:nth-child(2){
+      margin-inline-end: 10px;
+      margin-bottom: 15px;
+    }
+  }
   .user-inputs-container {
     > :first-child {
       margin-bottom: 15px;
